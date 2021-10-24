@@ -1,31 +1,45 @@
-# LGMVIP-DataScience-Task-1
+# LGMVIP-DataScience-Task-2
 
-(A) Iris Flowers Classification ML Project
+
+(A) Exploratory Data Analysis on Dataset - Terrorism 
 
 **About Project**
-This particular ML project is usually referred to as the “Hello World” of Machine Learning. The iris flowers dataset contains numeric attributes, and it is perfect for beginners to learn about supervised ML algorithms, mainly how to load and handle data. Also, since this is a small dataset, it can easily fit in memory without requiring special transformations or scaling capabilities.
-
-**Features**
-1.Sepal width
-2.Sepal length
-3.Petal width
-4.Petal length
-
-**Class**
-1.Iris Setosa
-2.Iris Versicolour
-3.Iris Virginica
+Information on more than 180,000 Terrorist Attacks
+The Global Terrorism Database (GTD) is an open-source database including information on terrorist attacks around the world from 1970 through 2017. The GTD includes systematic data on domestic as well as international terrorist incidents that have occurred during this time period and now includes more than 180,000 attacks. The database is maintained by researchers at the National Consortium for the Study of Terrorism and Responses to Terrorism (START), headquartered at the University of Maryland.
+Definition of terrorism:
+"The threatened or actual use of illegal force and violence by a non-state actor to attain a political, economic, religious, or social goal through fear, coercion, or intimidation."
 
 **Technology Used** 
 1.Python
 2.Jupyter Notebook
 3.Numpy Library
 4.Pandas Library
-5.Some Part of Sklearn Library
+5.Seaborn Library
+6.Matplotlib Library
 
 **Result**
 Following Accuracy We get:-
-1. By Using Support Vector Classifier - 94.73 %
-2. By Using Decision Tree Classifier - 94.73 %
-3. By Using K Neighbors Classifier (KNN) - 97.36 %  ( Best One )
+1. Year Wise Attacks
+2. Region Wise Attacks
+3. Country Wise Attacks
+4. City Wise Attacks [Top 10]
+5. Terrorist Group Wise Attacks [Top 15]
+
+
+(B) Prediction Using Decision Tree
+
+**About Project**
+Create the Decision Tree classifier and visualize it graphically. 
+The purpose is if we feed any new data to this classifier, it would be able to  predict the right class accordingly.  
+
+**Technology Used** 
+1.Python
+2.Jupyter Notebook
+3.Numpy Library
+4.Pandas Library
+5.Sklearn Library
+
+**Result**
+Accuracy Of Decision Tree Classifier :- 94.73%
+
 
